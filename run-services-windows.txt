@@ -1,0 +1,9 @@
+Run each command in a separate Command Prompt from this project folder:
+
+1. mvn -pl discovery-server spring-boot:run
+2. mvn -pl auth-service spring-boot:run
+3. mvn -pl kitchen-service spring-boot:run
+4. mvn -pl order-service spring-boot:run
+5. mvn -pl api-gateway spring-boot:run
+
+Java 21 is configured in the Maven parent pom.xml.
